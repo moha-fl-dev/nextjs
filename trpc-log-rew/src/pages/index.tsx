@@ -81,7 +81,7 @@ interface Iprops {
   props: Object
 }
 
-export const getServerSideProps = () => {
+export const getStaticProps = () => {
 
   console.log('ServerSideProps -------->')
 
